@@ -1,5 +1,4 @@
 #include <micro_ros_arduino.h>
-#include <ESP32Servo.h>
 #include <stdio.h>
 #include <rcl/rcl.h>
 #include <rcl/error_handling.h>
@@ -8,6 +7,7 @@
 #include <std_msgs/msg/int8.h>
 #include <std_msgs/msg/int32.h>
 #include <geometry_msgs/msg/twist.h>
+#include <ESP32Servo.h>
 
 Servo myservo;  // create servo object to control a servo
 const int servoPin = 12;
